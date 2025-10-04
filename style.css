@@ -1,0 +1,100 @@
+:root {
+    --main_bg: #1e1f26; /* Deep charcoal navy */
+    --text_color: #e0e0e0; /* Soft light gray */
+    --dark_text_color: #9198a1;; /* Soft light gray */
+    --item_bg: #2d2f36; /* Dark neutral gray */
+}
+
+body {
+    background-color: var(--main_bg);
+    color: var(--text_color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    user-select: none;
+}
+
+#ContentWrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 1200px) {
+    #ContentWrapper {
+        flex-direction: column;
+    }
+}
+
+.Item {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--item_bg);
+    padding: 15px 20px;
+    border-radius: 8px;
+    min-width: 240px;
+    box-sizing: border-box;
+}
+
+.Item:hover {
+    cursor: pointer;
+}
+
+/* Titles */
+.Item h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.ItemTechBar {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.ItemTechSetWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.ItemTechSetCircle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #f1e05a; /* Add your desired color */
+    margin-right: 10px;
+}
+
+.ItemTechSetCircle:hover {
+    transform: scale(1.2); /* Makes circles grow on hover */
+    transition: transform 0.3s ease;
+}
+
+.ItemTechSet {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centers the circles vertically */
+    width: 100%;
+}
+
+.ItemTechSetPrecent {
+    display: flex;
+    line-height: 50px;
+    margin-left: 7px;
+    color: var(--dark_text_color);
+}
+
+.HTML {
+    background-color: #e34c26;
+}
+.CSS {
+    background-color: #663399;
+}
+.JavaScript {
+    background-color: #f1e05a;
+}
