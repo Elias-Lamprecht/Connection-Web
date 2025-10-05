@@ -45,7 +45,33 @@ body {
 @media screen and (max-width: 1000px) {
     #ContentWrapper {
         grid-template-columns: 1fr;
-        gap: 25px;
+        gap: 80px 40px;
+    }
+    .ItemGithubLink {
+        margin-bottom: 15px;
+    }
+    .ItemTechSetWrapper {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .DateDisplay {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .DateDisplay {
+        flex-direction: column;
+    }
+    .Divider {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .TypeDateRow {
+        flex-direction: column;
     }
 }
 
@@ -299,13 +325,6 @@ body {
    RESPONSIVE ADJUSTMENTS
 =========================== */
 @media screen and (max-width: 500px) {
-    .DateDisplay {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-    .Divider { display: none; }
-
     .StatusLinksRow {
         flex-direction: column;
         align-items: flex-start;
