@@ -1,6 +1,8 @@
 {
   "projects": [
     "LabyrinthSolver",
-    "CallOfBuddy"
+    "CallOfBuddy",
+    "CreationWeb",
+    "ConnectionWeb"
   ]
 }

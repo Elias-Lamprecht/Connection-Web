@@ -1,0 +1,22 @@
+{
+  "title": "Creation Web",
+  "image": "./image/creation-web.jpeg",
+  "description": "Creation Web is a tool that builds project JSONs for Connection Web, providing the data and settings it needs to create and manage connections between projects.",
+  "type": "Web",
+  "start_date": "2025-10-04",
+  "end_date": "2025-10-05",
+  "github": "https://github.com/Elias-Lamprecht/Creation-Web",
+  "live": "https://creation-web-elias-lamprecht.netlify.app",
+  "status": "Live",
+  "visibility": "Public",
+  "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "techbar": {
+    "HTML": 17.2,
+    "CSS": 33.9,
+    "JavaScript": 48.9
+  }
+}

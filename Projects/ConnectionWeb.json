@@ -1,0 +1,22 @@
+{
+  "title": "Connection Web",
+  "image": "./image/connection-web.jpeg",
+  "description": "A centralized hub that brings together all of my projects, ideas, and creations in one unified space — making it easier to access, manage, and share everything from a single location.",
+  "type": "Web",
+  "start_date": "2025-10-03",
+  "end_date": "2025-10-04",
+  "github": "https://github.com/Elias-Lamprecht/Connection-Web",
+  "live": "https://connection-web-elias-lamprecht.netlify.app",
+  "status": "Live",
+  "visibility": "Public",
+  "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "techbar": {
+    "HTML": 2.3,
+    "CSS": 42.8,
+    "JavaScript": 54.9
+  }
+}
