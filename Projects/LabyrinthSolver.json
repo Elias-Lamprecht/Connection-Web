@@ -1,14 +1,19 @@
 {
   "title": "LabyrinthSolver",
-  "image": "./image/LabyrinthSolverImage.png",
+  "image": "./image/LabyrinthSolver.jpeg",
   "description": "A simple interactive maze generator and solver implemented with HTML, CSS, and JavaScript. Draw walls, set start and goal points, and watch the maze-solving algorithm find the path!",
   "type": "Web",
-  "start_date": "3.10.2025",
-  "end_date": "4.10.2025",
+  "start_date": "2025-10-03",
+  "end_date": "2025-10-04",
   "github": "https://github.com/Hugohosenfresser/LabyrinthSolver",
   "live": "https://enchanting-marzipan-9222df.netlify.app/",
-  "status": "fertig",
-  "tech": ["HTML", "CSS", "JavaScript"],
+  "status": "Active",
+  "visibility": "Public",
+  "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
   "techbar": {
     "HTML": 13.4,
     "CSS": 36.7,
