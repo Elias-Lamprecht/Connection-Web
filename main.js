@@ -163,17 +163,21 @@ function CreateItem(data) {
     `;
     ItemGithubLink.href = data.github;
     ItemGithubLink.target = "_blank";
-
     const ItemLiveLink = document.createElement("a");
-    ItemLiveLink.classList.add("ItemLiveLink");
-    ItemLiveLink.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px;">
-        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 0 1 0-16c.86 0 1.69.14 2.46.39a8.003 8.003 0 0 1-5.78 12.97A7.98 7.98 0 0 1 12 20z"/>
-    </svg>
+    if (data.live !== '') {
+        ItemLiveLink.classList.add("ItemLiveLink");
+        ItemLiveLink.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px;">
+                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 0 1 0-16c.86 0 1.69.14 2.46.39a8.003 8.003 0 0 1-5.78 12.97A7.98 7.98 0 0 1 12 20z"/>
+            </svg>
     Live Demo
 `;
-    ItemLiveLink.href = data.live;
-    ItemLiveLink.target = "_blank";
+        ItemLiveLink.href = data.live;
+        ItemLiveLink.target = "_blank";
+    }
+    else {
+        ItemLiveLink.style.display = "none";
+    }
 
     const ItemStatus = document.createElement("p");
     ItemStatus.classList.add("ItemStatus");

@@ -5,9 +5,9 @@
   "type": "Web",
   "start_date": "2025-10-03",
   "end_date": "2025-10-04",
-  "github": "https://github.com/Hugohosenfresser/LabyrinthSolver",
-  "live": "https://enchanting-marzipan-9222df.netlify.app/",
-  "status": "Active",
+  "github": "https://github.com/Elias-Lamprecht/LabyrinthSolver",
+  "live": "https://labyrinthsolver-elias-lamprecht.netlify.app",
+  "status": "Live",
   "visibility": "Public",
   "tech": [
     "HTML",

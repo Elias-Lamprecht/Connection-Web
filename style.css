@@ -215,7 +215,7 @@ body {
 }
 
 /* Status colors */
-.ItemStatus.Active {
+.ItemStatus.Live {
     background: rgba(63, 114, 255, 0.15);
     color: var(--accent);
 }

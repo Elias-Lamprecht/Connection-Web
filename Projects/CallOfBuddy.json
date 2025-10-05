@@ -1,0 +1,18 @@
+{
+  "title": "Call of Buddy",
+  "image": "./image/Call-of-Buddy.png",
+  "description": "A fast-paced 2D shooter with custom arenas, AI enemies, grenades, and power-ups where you dodge, shoot, and survive while creating your own maps using the built-in editor to place terrain, spawn points, and pickups for endless replayability.",
+  "type": "Python",
+  "start_date": "2025-05-21",
+  "end_date": "2025-10-21",
+  "github": "https://github.com/Elias-Lamprecht/ShooterGame",
+  "live": "",
+  "status": "Live",
+  "visibility": "Public",
+  "tech": [
+    "Python"
+  ],
+  "techbar": {
+    "Python": 100
+  }
+}
